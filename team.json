@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Mervin Díaz",
+    "title": "AI Game Engineer",
+    "role": {
+      "en": "Founder · design, development, art direction and sound design",
+      "es": "Fundador · diseño, desarrollo, dirección de arte y diseño de sonido"
+    },
+    "photo": "assets/team/mervin-pixel.png",
+    "pixel": false,
+    "links": {}
+  },
+  {
+    "name": "Camila Rodríguez",
+    "title": "AI Game Engineer",
+    "role": {
+      "en": "Founder · design, development, art direction and sound design · writer and creator of Estrella Destrozada",
+      "es": "Fundadora · diseño, desarrollo, dirección de arte y diseño de sonido · escritora y creadora de Estrella Destrozada"
+    },
+    "photo": "",
+    "links": {}
+  }
+]

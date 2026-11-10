@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Fugitive Show</title>
+<meta name="description" content="Una cacería humana transmitida en vivo. Sobrevive como Runner o caza por dinero. PC y Android, 2 a 10 jugadores.">
+<meta property="og:title" content="Fugitive Show"><meta property="og:description" content="Sobrevive como Runner o caza por dinero. Prueba cerrada próximamente.">
+<meta property="og:image" content="presskit/images/01-presentador.png">
+<link rel="alternate" hreflang="en" href="../"><link rel="alternate" hreflang="es" href="./">
+<link rel="icon" href="../presskit/logo/fugitive-show-icon-512.png?v=2">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#17121a;--card:#221a26;--ink:#0f0b0c;--text:#f3ead9;--muted:#b9ad9c;--yel:#ffce26;--red:#e22626}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 Inter,system-ui,sans-serif}
+a{color:var(--yel)}h1,h2,h3,.btn,.tag{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-weight:400;letter-spacing:.02em}
+.top{position:fixed;inset:0 0 auto;display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:rgba(23,18,26,.88);backdrop-filter:blur(6px);z-index:9}
+.top img{height:46px}.top nav a{margin-left:14px;text-decoration:none;color:var(--text);font-size:.9rem}.top nav .lang{color:var(--yel)}
+.live{display:inline-flex;align-items:center;gap:8px;color:var(--text);font-family:Anton,sans-serif}.live:before{content:"";width:12px;height:12px;border-radius:50%;background:var(--red);animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:90px 16px 40px;background:linear-gradient(rgba(23,18,26,.55),var(--bg)),url(../presskit/images/01-presentador.png) center/cover}
+.hero img.logo{width:min(420px,78%)}.hero p{font-size:1.25rem;max-width:640px;margin:10px auto 22px}
+.btn{display:inline-block;background:var(--red);color:var(--text);padding:12px 24px;border:3px solid var(--ink);border-radius:12px;box-shadow:5px 5px 0 var(--ink);text-decoration:none;font-size:1.2rem;margin:6px}
+.btn.alt{background:var(--yel);color:var(--ink)}
+section{max-width:1100px;margin:0 auto;padding:60px 16px}h2{font-size:clamp(2rem,6vw,3.2rem);color:var(--yel);margin:0 0 18px}
+video{width:100%;border:4px solid var(--ink);border-radius:14px;box-shadow:8px 8px 0 var(--ink);background:#000}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border:3px solid var(--ink);border-radius:14px;box-shadow:6px 6px 0 var(--ink);overflow:hidden}
+.card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-bottom:3px solid var(--ink)}.card div{padding:14px 16px}.card h3{margin:0;color:var(--yel);font-size:1.5rem}.card p{margin:.3rem 0 0;color:var(--muted)}
+.tag{background:var(--red);padding:2px 8px;border-radius:6px;font-size:.85rem}
+.facts{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}.facts span{background:var(--card);border:3px solid var(--ink);border-radius:10px;padding:8px 14px}
+.cta{text-align:center;background:radial-gradient(circle at 50% 0,#3a2433,var(--bg) 70%)}
+.credits{color:var(--muted);font-size:.92rem}.credits h2{font-size:1.8rem}.credits p{margin:.3rem 0}.credits strong{color:var(--text)}
+footer{text-align:center;color:var(--muted);padding:30px 16px;font-size:.9rem}
+@media(max-width:600px){.top nav a:not(.k):not(.lang){display:none}}
+</style></head><body>
+<div class="top"><a href="#"><img src="../presskit/logo/fugitive-show-logo-small.png?v=2" alt="Fugitive Show"></a><nav><a href="#trailer">Tráiler</a><a href="#como">Cómo se juega</a><a href="../presskit/es/">Prensa</a><a class="k" href="#prueba">Prueba cerrada</a><a class="lang" href="../" hreflang="en">EN</a></nav></div>
+<div class="hero"><div><span class="live">EN VIVO</span><br><img class="logo" src="../presskit/logo/fugitive-show-logo.png?v=2" alt="Fugitive Show">
+<p>Una cacería humana transmitida en vivo. Sobrevive como Runner o caza por dinero.</p>
+<a class="btn" href="#prueba">Anótate a la prueba cerrada</a><a class="btn alt" href="#trailer">Ver el teaser</a></div></div>
+<section id="trailer"><h2>El show está por empezar</h2><video controls playsinline preload="metadata" poster="../presskit/thumbs/01-presentador.jpg" src="../presskit/video/fugitive-show-teaser-16x9.mp4"></video></section>
+<section id="como"><h2>Cómo se juega</h2><div class="steps">
+<div class="card"><img src="../presskit/thumbs/02-lobby-estudio.jpg" alt=""><div><span class="tag">1</span><h3>Entra al estudio</h3><p>Recorre el set, elige tu personaje y prueba las armas mientras el presentador calienta al público.</p></div></div>
+<div class="card"><img src="../presskit/thumbs/04-sorteo-runner.jpg" alt=""><div><span class="tag">2</span><h3>Sorteo en vivo</h3><p>Uno o dos son los Runners, con 10.000 para armarse. El resto son Hunters, con 3.000 y ganas de cobrar.</p></div></div>
+<div class="card"><img src="../presskit/thumbs/06-caceria.jpg" alt=""><div><span class="tag">3</span><h3>Sobrevive 2:30</h3><p>Los Runners tienen una sola vida. Los Hunters reaparecen. Si sobrevives, cobras el doble.</p></div></div>
+</div></section>
+<section><h2>Todos son estrella una vez</h2><p>Los roles rotan en cada ronda, así que todos tienen su turno como fugitivo. Gana quien termina con la bolsa más grande.</p>
+<div class="steps"><div class="card"><img src="../presskit/thumbs/11-elenco.jpg" alt=""><div><h3>Un elenco ridículo</h3><p>Ex convicto, motoquero, luchador, novia, carnicero, cowboy y más, cada uno con sus lentes.</p></div></div>
+<div class="card"><img src="../presskit/thumbs/12-accesorios.jpg" alt=""><div><h3>Accesorios absurdos</h3><p>Pato, cono, afro, monóculo y otros 20. Solo cosméticos: nada de pagar para ganar.</p></div></div>
+<div class="card"><img src="../presskit/thumbs/08-wasteland.jpg" alt=""><div><h3>Un wasteland con viento</h3><p>Polvo, bolsas y plantas rodadoras que vuelan con cada ráfaga. La ciudad cyberpunk llega después.</p></div></div></div></section>
+<section><div class="facts"><span>2 a 10 jugadores</span><span>PC + Android con cross-play</span><span>Salas privadas con código</span><span>Rondas de 2:30</span></div></section>
+<section id="prueba" class="cta"><h2>Prueba cerrada</h2><p>Buscamos jugadores y creadores de contenido para la primera prueba en PC y Android. Escríbenos con tu nombre, tu plataforma y, si tienes, el link de tu canal.</p>
+<a class="btn" href="mailto:overdosestudiobuenosaires@gmail.com?subject=Quiero%20jugar%20la%20prueba%20cerrada%20de%20Fugitive%20Show&body=Nombre%3A%0APlataforma%20(PC%20o%20Android)%3A%0ACanal%20o%20red%20social%20(opcional)%3A">Quiero jugar</a>
+<p><a href="../presskit/es/">¿Eres prensa o creador? Mira el presskit</a></p></section>
+<section id="creditos" class="credits"><h2>Créditos</h2>
+<p><strong>Mervin Díaz</strong> — diseño, desarrollo, dirección de arte y diseño de sonido</p>
+<p><strong>Música:</strong> "Disco con Tutti", "Funkorama", "Movement Proposition", "Volatile Reaction" y "Kick Shock" de Kevin MacLeod (<a href="https://incompetech.com">incompetech.com</a>). Licensed under Creative Commons: By Attribution 4.0 License (<a href="https://creativecommons.org/licenses/by/4.0/">creativecommons.org/licenses/by/4.0</a>)</p>
+<p><strong>Efectos de sonido:</strong> <a href="https://sonniss.com/gameaudiogdc">Sonniss GDC Game Audio Bundle</a> y <a href="https://mixkit.co">Mixkit</a>. <a href="../presskit/es/#creditos">Créditos completos</a></p>
+<p><strong>Tipografías:</strong> Anton, Oswald y Noto Sans — SIL Open Font License</p></section>
+<footer>© 2026 <a href="../../es/">Overdose Studio Buenos Aires</a> · The Fugitive Show es un juego en desarrollo · <a href="../presskit/es/">Presskit</a> · <a href="../" hreflang="en">English</a></footer>
+</body></html>
