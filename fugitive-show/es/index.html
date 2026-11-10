@@ -20,6 +20,7 @@ a{color:var(--yel)}h1,h2,h3,.btn,.tag{font-family:Anton,Impact,sans-serif;text-t
 .btn.alt{background:var(--yel);color:var(--ink)}
 section{max-width:1100px;margin:0 auto;padding:60px 16px}h2{font-size:clamp(2rem,6vw,3.2rem);color:var(--yel);margin:0 0 18px}
 video{width:100%;border:4px solid var(--ink);border-radius:14px;box-shadow:8px 8px 0 var(--ink);background:#000}
+.vids{display:grid;grid-template-columns:3fr 1fr;gap:20px;align-items:start}.vids video.v{aspect-ratio:9/16}.dl{margin-top:14px;font-size:.95rem}.dl a{color:inherit}@media(max-width:720px){.vids{grid-template-columns:1fr}.vids video.v{max-width:320px;margin:0 auto}}
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
 .card{background:var(--card);border:3px solid var(--ink);border-radius:14px;box-shadow:6px 6px 0 var(--ink);overflow:hidden}
 .card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-bottom:3px solid var(--ink)}.card div{padding:14px 16px}.card h3{margin:0;color:var(--yel);font-size:1.5rem}.card p{margin:.3rem 0 0;color:var(--muted)}
@@ -34,7 +35,7 @@ footer{text-align:center;color:var(--muted);padding:30px 16px;font-size:.9rem}
 <div class="hero"><div><span class="live">EN VIVO</span><br><img class="logo" src="../presskit/logo/fugitive-show-logo.png?v=2" alt="Fugitive Show">
 <p>Una cacería humana transmitida en vivo. Sobrevive como Runner o caza por dinero.</p>
 <a class="btn" href="#prueba">Anótate a la prueba cerrada</a><a class="btn alt" href="#trailer">Ver el teaser</a></div></div>
-<section id="trailer"><h2>El show está por empezar</h2><video controls playsinline preload="metadata" poster="../presskit/thumbs/01-presentador.jpg" src="../presskit/video/fugitive-show-teaser-16x9.mp4"></video></section>
+<section id="trailer"><h2>El show está por empezar</h2><div class="vids"><video controls playsinline preload="metadata" poster="../presskit/thumbs/teaser-16x9-es.jpg" src="../presskit/video/fugitive-show-teaser-16x9-es.mp4"></video><video class="v" controls playsinline preload="metadata" poster="../presskit/thumbs/teaser-9x16-es.jpg" src="../presskit/video/fugitive-show-teaser-9x16-es.mp4"></video></div><p class="dl">Descargar: <a href="../presskit/video/fugitive-show-teaser-16x9-es.mp4" download>teaser 16:9</a> · <a href="../presskit/video/fugitive-show-teaser-9x16-es.mp4" download>teaser vertical 9:16</a> · versiones en inglés: <a href="../presskit/video/fugitive-show-teaser-16x9-en.mp4" download>16:9</a>, <a href="../presskit/video/fugitive-show-teaser-9x16-en.mp4" download>9:16</a></p></section>
 <section id="como"><h2>Cómo se juega</h2><div class="steps">
 <div class="card"><img src="../presskit/thumbs/02-lobby-estudio.jpg" alt=""><div><span class="tag">1</span><h3>Entra al estudio</h3><p>Recorre el set, elige tu personaje y prueba las armas mientras el presentador calienta al público.</p></div></div>
 <div class="card"><img src="../presskit/thumbs/04-sorteo-runner.jpg" alt=""><div><span class="tag">2</span><h3>Sorteo en vivo</h3><p>Uno o dos son los Runners, con 10.000 para armarse. El resto son Hunters, con 3.000 y ganas de cobrar.</p></div></div>
